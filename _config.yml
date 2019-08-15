@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Yue
-subtitle: Blog
+title: Yue's Bolg
+subtitle: 记录生活
 description: 
 keywords: 
 author: Yue
@@ -81,3 +81,9 @@ deploy:
   type: git
   repository: git@github.com:euynauy/euynauy.github.io.git
   branch: master
+
+#Search
+search:
+  path: search.xml
+  field: post
+  content: true
