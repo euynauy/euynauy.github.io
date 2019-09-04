@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html class="theme-next pisces use-motion" lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="generator" content="Hexo 3.9.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.3.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.3.0">
+
+<link rel="stylesheet" href="/css/main.css?v=7.3.0">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2">
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.3.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    save_scroll: false,
+    copycode: {"enable":false,"show_result":false,"style":null},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    translation: {
+      copy_button: '复制',
+      copy_success: '复制成功',
+      copy_failure: '复制失败'
+    }
+  };
+</script>
+
+  <meta name="description" content="咸鱼买的Mi Box S到啦！ 卖家貌似是从美国沃尔玛海淘的，460包邮，比淘宝便宜。 我本来也想海淘，可它半天不打折，不想等了。 为啥选择它？一、原生AndroidTV、Netflix 4K和Youtube 4K支持 二、配置尚可 三、Nvidia Shield TV贵，游戏功能无用 外观网上照片太多了，我就拍个外包装好了。  家里没有实现路由器科学上网，怎么办？因为家里还没有软路由，所以没法实">
+<meta name="keywords" content="Mi Box S,电视盒子">
+<meta property="og:type" content="article">
+<meta property="og:title" content="没有软路由，Mi Box S照样能看Netflix、Youtube">
+<meta property="og:url" content="https://euynauy.github.io/2019/09/04/没有软路由，Mi-Box-S照样能看Netflix、Youtube/index.html">
+<meta property="og:site_name" content="Yue&#39;s Notes">
+<meta property="og:description" content="咸鱼买的Mi Box S到啦！ 卖家貌似是从美国沃尔玛海淘的，460包邮，比淘宝便宜。 我本来也想海淘，可它半天不打折，不想等了。 为啥选择它？一、原生AndroidTV、Netflix 4K和Youtube 4K支持 二、配置尚可 三、Nvidia Shield TV贵，游戏功能无用 外观网上照片太多了，我就拍个外包装好了。  家里没有实现路由器科学上网，怎么办？因为家里还没有软路由，所以没法实">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://i.loli.net/2019/09/04/LVERwplsAuf9ibP.jpg">
+<meta property="og:image" content="https://i.loli.net/2019/09/04/v3fDrB7yX1GoRtV.png">
+<meta property="og:image" content="https://i.loli.net/2019/09/04/usVEMO62pwY98ie.jpg">
+<meta property="og:image" content="https://i.loli.net/2019/09/04/eUbFQwc68XMyBij.png">
+<meta property="og:image" content="https://i.loli.net/2019/09/04/1TFhmyvkwXCQH3j.jpg">
+<meta property="og:image" content="https://i.loli.net/2019/09/04/SNmK6kE3OfoDplZ.png">
+<meta property="og:image" content="https://i.loli.net/2019/09/04/XKVhFJs9Evati6k.jpg">
+<meta property="og:image" content="https://i.loli.net/2019/09/04/QlZ9jKURydprGBN.jpg">
+<meta property="og:image" content="https://i.loli.net/2019/09/04/1QrkjMV3Z5CwRKG.jpg">
+<meta property="og:image" content="https://i.loli.net/2019/09/04/3I749CkPsKdoyBf.jpg">
+<meta property="og:image" content="https://i.loli.net/2019/09/04/jioqBXtahGS4Jev.jpg">
+<meta property="og:image" content="https://i.loli.net/2019/09/04/uG267ji8DdPo4YJ.jpg">
+<meta property="og:image" content="https://i.loli.net/2019/09/04/GX2HADxzPdZ8k19.jpg">
+<meta property="og:image" content="https://i.loli.net/2019/09/04/fl4AzOWeY1iRHtJ.jpg">
+<meta property="og:image" content="https://i.loli.net/2019/09/04/VD2ezNZQkTF8d5p.jpg">
+<meta property="og:updated_time" content="2019-09-04T11:30:19.713Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="没有软路由，Mi Box S照样能看Netflix、Youtube">
+<meta name="twitter:description" content="咸鱼买的Mi Box S到啦！ 卖家貌似是从美国沃尔玛海淘的，460包邮，比淘宝便宜。 我本来也想海淘，可它半天不打折，不想等了。 为啥选择它？一、原生AndroidTV、Netflix 4K和Youtube 4K支持 二、配置尚可 三、Nvidia Shield TV贵，游戏功能无用 外观网上照片太多了，我就拍个外包装好了。  家里没有实现路由器科学上网，怎么办？因为家里还没有软路由，所以没法实">
+<meta name="twitter:image" content="https://i.loli.net/2019/09/04/LVERwplsAuf9ibP.jpg">
+  <link rel="canonical" href="https://euynauy.github.io/2019/09/04/没有软路由，Mi-Box-S照样能看Netflix、Youtube/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>没有软路由，Mi Box S照样能看Netflix、Youtube | Yue's Notes</title>
+  
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  <div class="container sidebar-position-left">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Yue's Notes</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">记录生活</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+      
+      
+      
+        
+        <li class="menu-item menu-item-home">
+      
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-about">
+      
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-tags">
+      
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-categories">
+      
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-archives">
+      
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a href="javascript:;" class="popup-trigger">
+        
+          <i class="menu-item-icon fa fa-search fa-fw"></i> <br>搜索</a>
+      </li>
+    
+  </ul>
+
+</nav>
+  <div class="site-search">
+    
+  <div class="popup search-popup">
+  <div class="search-header">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <div class="search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="search-input">
+    </div>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+  </div>
+  <div id="search-result"></div>
+</div>
+
+
+  </div>
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+            
+
+          <div id="content" class="content page-post-detail">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://euynauy.github.io/2019/09/04/没有软路由，Mi-Box-S照样能看Netflix、Youtube/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yue">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Yue's Notes">
+    </span>
+      <header class="post-header">
+
+        
+          <h1 class="post-title" itemprop="name headline">没有软路由，Mi Box S照样能看Netflix、Youtube
+
+            
+          </h1>
+        
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              
+                
+              
+
+              <time title="创建时间：2019-09-04 10:50:50 / 修改时间：19:30:19" itemprop="dateCreated datePublished" datetime="2019-09-04T10:50:50+08:00">2019-09-04</time>
+            </span>
+          
+            
+
+            
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/电视盒子/" itemprop="url" rel="index"><span itemprop="name">电视盒子</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/电视盒子/Mi-Box-S/" itemprop="url" rel="index"><span itemprop="name">Mi Box S</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            <span class="post-meta-item" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>咸鱼买的Mi Box S到啦！</p>
+<p>卖家貌似是从美国沃尔玛海淘的，460包邮，比淘宝便宜。</p>
+<p>我本来也想海淘，可它半天不打折，不想等了。</p>
+<h1 id="为啥选择它？"><a href="#为啥选择它？" class="headerlink" title="为啥选择它？"></a>为啥选择它？</h1><p>一、原生AndroidTV、Netflix 4K和Youtube 4K支持</p>
+<p>二、配置尚可</p>
+<p>三、Nvidia Shield TV贵，游戏功能无用</p>
+<h1 id="外观"><a href="#外观" class="headerlink" title="外观"></a>外观</h1><p>网上照片太多了，我就拍个外包装好了。</p>
+<p><img src="https://i.loli.net/2019/09/04/LVERwplsAuf9ibP.jpg" alt="IMG_0322.JPG"></p>
+<h1 id="家里没有实现路由器科学上网，怎么办？"><a href="#家里没有实现路由器科学上网，怎么办？" class="headerlink" title="家里没有实现路由器科学上网，怎么办？"></a>家里没有实现路由器科学上网，怎么办？</h1><p>因为家里还没有软路由，所以没法实现路由器科学上网。而且连接wifi后使用代理设置居然保存不了（有知道的大佬说下原因），无奈只能另辟蹊径，使用adb安装了<a href="https://forum.xda-developers.com/showpost.php?p=23109280&postcount=2" target="_blank" rel="noopener">MiXplorer</a>和<a href="https://github.com/shadowsocks/shadowsocks-android/releases" target="_blank" rel="noopener">Shadowsocks  for Android TV</a>实现Mi Box S科学上网。</p>
+<h2 id="一、adb连接Mi-Box-S并安装apk"><a href="#一、adb连接Mi-Box-S并安装apk" class="headerlink" title="一、adb连接Mi Box S并安装apk"></a>一、adb连接Mi Box S并安装apk</h2><p>1.前往Android开发<a href="https://developer.android.com/studio/releases/platform-tools.html" target="_blank" rel="noopener">官方网站</a>，下载到最新的Android platform-tools</p>
+<p>2.打开Mi Box S开发者选项，并开启usb调试</p>
+<p>3.将Mi Box S与要运行 adb 的电脑连接到同一个局域网，比如连到同一个 WiFi。</p>
+<p>4.cmd进入Android platform-tools目录</p>
+<p>5.<code>adb connect &lt;miboxs的ip地址&gt;:5555</code>，在Mi Box S上确认连接，使用<code>adb devices</code>确认连接状态</p>
+<p><img src="https://i.loli.net/2019/09/04/v3fDrB7yX1GoRtV.png" alt="TIM截图20190904184607.png"></p>
+<p><img src="https://i.loli.net/2019/09/04/usVEMO62pwY98ie.jpg" alt="IMG_0335.JPG"></p>
+<p>7.将要安装的apk文件放在Android platform-tools目录下</p>
+<p><img src="https://i.loli.net/2019/09/04/eUbFQwc68XMyBij.png" alt="TIM截图20190904184856.png"></p>
+<p>8.<code>adb install 文件名.apk</code></p>
+<p><img src="https://i.loli.net/2019/09/04/1TFhmyvkwXCQH3j.jpg" alt="IMG_0338.JPG"></p>
+<center>打开应用即可看到安装的软件</center>
+
+<h2 id="二、Shadowsocks-tv设置"><a href="#二、Shadowsocks-tv设置" class="headerlink" title="二、Shadowsocks tv设置"></a>二、Shadowsocks tv设置</h2><p>1.将PC端Shadowsocks目录中的gui-config.json拷贝到U盘</p>
+<p><img src="https://i.loli.net/2019/09/04/SNmK6kE3OfoDplZ.png" alt="TIM截图20190904185813.png"></p>
+<p>2.关闭USB调试，插入U盘</p>
+<p><img src="https://i.loli.net/2019/09/04/XKVhFJs9Evati6k.jpg" alt="IMG_0336.JPG"></p>
+<p>3.打开Shadowsocks tv，选择从文件中替换，使用MiXplorer，导入gui-config.json</p>
+<p><img src="https://i.loli.net/2019/09/04/QlZ9jKURydprGBN.jpg" alt="IMG_0339.JPG"></p>
+<p><img src="https://i.loli.net/2019/09/04/1QrkjMV3Z5CwRKG.jpg" alt="IMG_0341.JPG"></p>
+<p><img src="https://i.loli.net/2019/09/04/3I749CkPsKdoyBf.jpg" alt="IMG_0342.JPG"></p>
+<p>4.选择节点连接，Mi Box S成功科学上网，然后登陆谷歌账号，更新软件。</p>
+<p><img src="https://i.loli.net/2019/09/04/jioqBXtahGS4Jev.jpg" alt="IMG_0343.JPG"></p>
+<h1 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a>大功告成</h1><p><img src="https://i.loli.net/2019/09/04/uG267ji8DdPo4YJ.jpg" alt="IMG_0344.JPG"></p>
+<p><img src="https://i.loli.net/2019/09/04/GX2HADxzPdZ8k19.jpg" alt="IMG_0346.JPG"></p>
+<p><img src="https://i.loli.net/2019/09/04/fl4AzOWeY1iRHtJ.jpg" alt="IMG_0347.JPG"></p>
+<center>Netflix</center>
+
+<p><img src="https://i.loli.net/2019/09/04/VD2ezNZQkTF8d5p.jpg" alt="IMG_0345.JPG"></p>
+<center>Youtube 4K</center>
+
+<h1 id="Enjoy-it"><a href="#Enjoy-it" class="headerlink" title="Enjoy it"></a>Enjoy it</h1>
+    </div>
+
+    
+    
+    
+        
+      
+
+      <footer class="post-footer">
+          
+            
+          
+          <div class="post-tags">
+            
+              <a href="/tags/Mi-Box-S/" rel="tag"># Mi Box S</a>
+            
+              <a href="/tags/电视盒子/" rel="tag"># 电视盒子</a>
+            
+          </div>
+        
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+              
+                <a href="/2019/08/23/常见软路由/" rel="next" title="常见软路由">
+                  <i class="fa fa-chevron-left"></i> 常见软路由
+                </a>
+              
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+              
+            </div>
+          </div>
+        
+      </footer>
+    
+  </div>
+  
+  
+  
+  </article>
+
+  </div>
+
+
+          </div>
+          
+    
+    
+  <div class="comments" id="comments">
+    <div id="lv-container" data-id="city" data-uid="MTAyMC80NjEwNC8yMjYxNQ=="></div>
+  </div>
+  
+  
+
+        </div>
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image"
+      src="/uploads/avatar.png"
+      alt="Yue">
+  <p class="site-author-name" itemprop="name">Yue</p>
+  <div class="site-description motion-element" itemprop="description"></div>
+</div>
+  <nav class="site-state motion-element">
+      <div class="site-state-item site-state-posts">
+        
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-categories">
+        
+          
+            <a href="/categories/">
+          
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">分类</span>
+        </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-tags">
+        
+          
+            <a href="/tags/">
+          
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        <span class="site-state-item-count">5</span>
+        <span class="site-state-item-name">标签</span>
+        </a>
+      </div>
+    
+  </nav>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="https://github.com/euynauy" title="GitHub &rarr; https://github.com/euynauy" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+    
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="mailto:euynauy@gmail.com" title="E-Mail &rarr; mailto:euynauy@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+    
+  </div>
+
+
+
+        </div>
+      </div>
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#为啥选择它？"><span class="nav-number">1.</span> <span class="nav-text">为啥选择它？</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#外观"><span class="nav-number">2.</span> <span class="nav-text">外观</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#家里没有实现路由器科学上网，怎么办？"><span class="nav-number">3.</span> <span class="nav-text">家里没有实现路由器科学上网，怎么办？</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#一、adb连接Mi-Box-S并安装apk"><span class="nav-number">3.1.</span> <span class="nav-text">一、adb连接Mi Box S并安装apk</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二、Shadowsocks-tv设置"><span class="nav-number">3.2.</span> <span class="nav-text">二、Shadowsocks tv设置</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#大功告成"><span class="nav-number">4.</span> <span class="nav-text">大功告成</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Enjoy-it"><span class="nav-number">5.</span> <span class="nav-text">Enjoy it</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-moon-o"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yue</span>
+</div>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
+    </span>
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+    <span class="post-meta-divider">|</span>
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>
+    </span>
+    <span class="site-pv" title="总访问量">
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+      </div>
+
+    
+
+  </div>
+
+  
+  <script src="/lib/jquery/index.js?v=3.4.1"></script>
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+<script src="/js/utils.js?v=7.3.0"></script>
+  <script src="/js/motion.js?v=7.3.0"></script>
+
+
+  <script src="/js/affix.js?v=7.3.0"></script>
+  <script src="/js/schemes/pisces.js?v=7.3.0"></script>
+
+
+<script src="/js/next-boot.js?v=7.3.0"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="/js/local-search.js?v=7.3.0"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+
+  
+  <script src="/js/scrollspy.js?v=7.3.0"></script>
+<script src="/js/post-details.js?v=7.3.0"></script>
+
+
+    
+<script>
+  window.livereOptions = {
+    refer: location.pathname.replace(CONFIG.root, '').replace('index.html', '')
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+</script>
+
+</body>
+</html>
