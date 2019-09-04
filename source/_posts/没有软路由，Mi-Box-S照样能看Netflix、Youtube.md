@@ -25,7 +25,9 @@ categories:
 
 # 外观
 
-网上照片太多了，我随便拍两张。
+网上照片太多了，我就拍个外包装好了。
+
+<!--more-->
 
 ![IMG_0322.JPG](https://i.loli.net/2019/09/04/LVERwplsAuf9ibP.jpg)
 
@@ -43,28 +45,60 @@ categories:
 
 4.cmd进入Android platform-tools目录
 
-5.`adb connect <miboxs的ip地址>:5555`
+5.`adb connect <miboxs的ip地址>:5555`，在Mi Box S上确认连接，使用`adb devices`确认连接状态
 
-6.在Mi Box S上确认连接，使用`adb devices`确认连接状态
+![TIM截图20190904184607.png](https://i.loli.net/2019/09/04/v3fDrB7yX1GoRtV.png)
+
+![IMG_0335.JPG](https://i.loli.net/2019/09/04/usVEMO62pwY98ie.jpg)
 
 7.将要安装的apk文件放在Android platform-tools目录下
 
+![TIM截图20190904184856.png](https://i.loli.net/2019/09/04/eUbFQwc68XMyBij.png)
+
 8.`adb install 文件名.apk`
+
+![IMG_0338.JPG](https://i.loli.net/2019/09/04/1TFhmyvkwXCQH3j.jpg)
+
+<center>打开应用即可看到安装的软件</center>
+
 
 ## 二、Shadowsocks tv设置
 
 1.将PC端Shadowsocks目录中的gui-config.json拷贝到U盘
 
-2.打开Shadowsocks tv，选择从文件中替换，使用MiXplorer，导入gui-config.json
+![TIM截图20190904185813.png](https://i.loli.net/2019/09/04/SNmK6kE3OfoDplZ.png)
 
-3.选择节点连接，Mi Box S成功科学上网，然后登陆谷歌账号，更新软件。
+2.关闭USB调试，插入U盘
+
+![IMG_0336.JPG](https://i.loli.net/2019/09/04/XKVhFJs9Evati6k.jpg)
+
+3.打开Shadowsocks tv，选择从文件中替换，使用MiXplorer，导入gui-config.json
+
+![IMG_0339.JPG](https://i.loli.net/2019/09/04/QlZ9jKURydprGBN.jpg)
+
+![IMG_0341.JPG](https://i.loli.net/2019/09/04/1QrkjMV3Z5CwRKG.jpg)
+
+![IMG_0342.JPG](https://i.loli.net/2019/09/04/3I749CkPsKdoyBf.jpg)
+
+4.选择节点连接，Mi Box S成功科学上网，然后登陆谷歌账号，更新软件。
+
+![IMG_0343.JPG](https://i.loli.net/2019/09/04/jioqBXtahGS4Jev.jpg)
 
 # 大功告成
 
-![IMG_0324.JPG](https://i.loli.net/2019/09/04/kLBRqfNrED7tKby.jpg)
+![IMG_0344.JPG](https://i.loli.net/2019/09/04/uG267ji8DdPo4YJ.jpg)
 
-<center>观看Netflix</center>
+![IMG_0346.JPG](https://i.loli.net/2019/09/04/GX2HADxzPdZ8k19.jpg)
 
-# 下一步打算
+![IMG_0347.JPG](https://i.loli.net/2019/09/04/fl4AzOWeY1iRHtJ.jpg)
 
-目前需求已解决，后面准备整个软路由和NAS玩玩。
+<center>Netflix</center>
+
+
+![IMG_0345.JPG](https://i.loli.net/2019/09/04/VD2ezNZQkTF8d5p.jpg)
+
+<center>Youtube 4K</center>
+
+
+# Enjoy it!
+
