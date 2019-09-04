@@ -284,7 +284,7 @@
                 
               
 
-              <time title="创建时间：2019-09-04 10:50:50 / 修改时间：19:30:19" itemprop="dateCreated datePublished" datetime="2019-09-04T10:50:50+08:00">2019-09-04</time>
+              <time title="创建时间：2019-09-04 10:50:50 / 修改时间：19:37:54" itemprop="dateCreated datePublished" datetime="2019-09-04T10:50:50+08:00">2019-09-04</time>
             </span>
           
             
@@ -323,49 +323,22 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          
-            <p>咸鱼买的Mi Box S到啦！</p>
+          <p>咸鱼买的Mi Box S到啦！</p>
 <p>卖家貌似是从美国沃尔玛海淘的，460包邮，比淘宝便宜。</p>
 <p>我本来也想海淘，可它半天不打折，不想等了。</p>
 <h1 id="为啥选择它？"><a href="#为啥选择它？" class="headerlink" title="为啥选择它？"></a>为啥选择它？</h1><p>一、原生AndroidTV、Netflix 4K和Youtube 4K支持</p>
 <p>二、配置尚可</p>
 <p>三、Nvidia Shield TV贵，游戏功能无用</p>
 <h1 id="外观"><a href="#外观" class="headerlink" title="外观"></a>外观</h1><p>网上照片太多了，我就拍个外包装好了。</p>
-<p><img src="https://i.loli.net/2019/09/04/LVERwplsAuf9ibP.jpg" alt="IMG_0322.JPG"></p>
-<h1 id="家里没有实现路由器科学上网，怎么办？"><a href="#家里没有实现路由器科学上网，怎么办？" class="headerlink" title="家里没有实现路由器科学上网，怎么办？"></a>家里没有实现路由器科学上网，怎么办？</h1><p>因为家里还没有软路由，所以没法实现路由器科学上网。而且连接wifi后使用代理设置居然保存不了（有知道的大佬说下原因），无奈只能另辟蹊径，使用adb安装了<a href="https://forum.xda-developers.com/showpost.php?p=23109280&postcount=2" target="_blank" rel="noopener">MiXplorer</a>和<a href="https://github.com/shadowsocks/shadowsocks-android/releases" target="_blank" rel="noopener">Shadowsocks  for Android TV</a>实现Mi Box S科学上网。</p>
-<h2 id="一、adb连接Mi-Box-S并安装apk"><a href="#一、adb连接Mi-Box-S并安装apk" class="headerlink" title="一、adb连接Mi Box S并安装apk"></a>一、adb连接Mi Box S并安装apk</h2><p>1.前往Android开发<a href="https://developer.android.com/studio/releases/platform-tools.html" target="_blank" rel="noopener">官方网站</a>，下载到最新的Android platform-tools</p>
-<p>2.打开Mi Box S开发者选项，并开启usb调试</p>
-<p>3.将Mi Box S与要运行 adb 的电脑连接到同一个局域网，比如连到同一个 WiFi。</p>
-<p>4.cmd进入Android platform-tools目录</p>
-<p>5.<code>adb connect &lt;miboxs的ip地址&gt;:5555</code>，在Mi Box S上确认连接，使用<code>adb devices</code>确认连接状态</p>
-<p><img src="https://i.loli.net/2019/09/04/v3fDrB7yX1GoRtV.png" alt="TIM截图20190904184607.png"></p>
-<p><img src="https://i.loli.net/2019/09/04/usVEMO62pwY98ie.jpg" alt="IMG_0335.JPG"></p>
-<p>7.将要安装的apk文件放在Android platform-tools目录下</p>
-<p><img src="https://i.loli.net/2019/09/04/eUbFQwc68XMyBij.png" alt="TIM截图20190904184856.png"></p>
-<p>8.<code>adb install 文件名.apk</code></p>
-<p><img src="https://i.loli.net/2019/09/04/1TFhmyvkwXCQH3j.jpg" alt="IMG_0338.JPG"></p>
-<center>打开应用即可看到安装的软件</center>
-
-<h2 id="二、Shadowsocks-tv设置"><a href="#二、Shadowsocks-tv设置" class="headerlink" title="二、Shadowsocks tv设置"></a>二、Shadowsocks tv设置</h2><p>1.将PC端Shadowsocks目录中的gui-config.json拷贝到U盘</p>
-<p><img src="https://i.loli.net/2019/09/04/SNmK6kE3OfoDplZ.png" alt="TIM截图20190904185813.png"></p>
-<p>2.关闭USB调试，插入U盘</p>
-<p><img src="https://i.loli.net/2019/09/04/XKVhFJs9Evati6k.jpg" alt="IMG_0336.JPG"></p>
-<p>3.打开Shadowsocks tv，选择从文件中替换，使用MiXplorer，导入gui-config.json</p>
-<p><img src="https://i.loli.net/2019/09/04/QlZ9jKURydprGBN.jpg" alt="IMG_0339.JPG"></p>
-<p><img src="https://i.loli.net/2019/09/04/1QrkjMV3Z5CwRKG.jpg" alt="IMG_0341.JPG"></p>
-<p><img src="https://i.loli.net/2019/09/04/3I749CkPsKdoyBf.jpg" alt="IMG_0342.JPG"></p>
-<p>4.选择节点连接，Mi Box S成功科学上网，然后登陆谷歌账号，更新软件。</p>
-<p><img src="https://i.loli.net/2019/09/04/jioqBXtahGS4Jev.jpg" alt="IMG_0343.JPG"></p>
-<h1 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a>大功告成</h1><p><img src="https://i.loli.net/2019/09/04/uG267ji8DdPo4YJ.jpg" alt="IMG_0344.JPG"></p>
-<p><img src="https://i.loli.net/2019/09/04/GX2HADxzPdZ8k19.jpg" alt="IMG_0346.JPG"></p>
-<p><img src="https://i.loli.net/2019/09/04/fl4AzOWeY1iRHtJ.jpg" alt="IMG_0347.JPG"></p>
-<center>Netflix</center>
-
-<p><img src="https://i.loli.net/2019/09/04/VD2ezNZQkTF8d5p.jpg" alt="IMG_0345.JPG"></p>
-<center>Youtube 4K</center>
-
-<h1 id="Enjoy-it"><a href="#Enjoy-it" class="headerlink" title="Enjoy it"></a>Enjoy it</h1>
+          <!--noindex-->
           
+            <div class="post-button text-center">
+              <a class="btn" href="/2019/09/04/没有软路由，Mi-Box-S照样能看Netflix、Youtube/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
